@@ -1,8 +1,8 @@
 # Survival-Modeling-Counterfactual-Analysis
 
 This project implements a compact survival + counterfactual analysis workflow on the SUPPORT2 ICU dataset:
-1) Baseline survival modeling (Cox) and risk visualization
-2) Counterfactual survival at a fixed horizon (e.g., 180 days) using a survival T-learner with optional IPW
+1) Baseline survival modeling (Cox) and risk visualization   **(01_survival_baseline.ipynb)**
+2) Counterfactual survival at a fixed horizon (180 days) using a survival T-learner with IPW **(02_counterfactual_survival_ite.ipynb)**
 
 The objective is to move beyond static risk estimation and toward decision-aware modeling, enabling the analysis of how patient outcomes may differ under alternative treatment scenarios.The work integrates classical survival analysis with causal inference techniques to demonstrate how longitudinal patient data can support individualized outcome estimation and exploratory treatment effect analysis in real-world medical datasets.
 
